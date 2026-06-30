@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oak & Reed 방문 경로</title>
+<style>
+  body { margin:0; padding:0; background:#f3f3f3; font-family: Arial, sans-serif; }
+  .wrap { position:relative; width:100%; max-width:900px; margin:0 auto; }
+  .wrap img { width:100%; display:block; }
+  a.hotspot {
+    position:absolute;
+    cursor:pointer;
+  }
+  .hint {
+    text-align:center;
+    color:#555;
+    font-size:15px;
+    padding:10px 0;
+  }
+</style>
+</head>
+<body>
+<div class="hint">🔗 "Oak &amp; Reed" 또는 "Parking Lot" 글자를 누르면 구글맵이 열립니다</div>
+<div class="wrap">
+  <img src="map.jpg" alt="Oak & Reed Route Map">
+  <a class="hotspot" style="left:11.5%; top:62.5%; width:17%; height:11%;"
+     href="https://www.google.com/maps/search/?api=1&query=Oak+%26+Reed+45-53+North+St+Middletown+NY+10940" target="_blank" title="Oak & Reed 구글맵 열기"></a>
+  <a class="hotspot" style="left:66%; top:30%; width:16%; height:9.5%;"
+     href="https://www.google.com/maps/search/?api=1&query=15+Orchard+St+Middletown+NY+10940" target="_blank" title="Parking Lot 구글맵 열기"></a>
+</div>
+</body>
+</html>
